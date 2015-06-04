@@ -1,4 +1,4 @@
-# ooxml_decrypt
+# ooxml_decrypt [![Build Status](https://travis-ci.org/woodbusy/ooxml_decrypt.svg?branch=master)](https://travis-ci.org/woodbusy/ooxml_decrypt)
 
 A Ruby library and script for decrypting password-protected Microsoft Office XML files (.docx, .xlsx, etc.). At present,
 this only supports documents encrypted (i.e. password-protected) by Office 2010 or later. Office 2007 also uses XML, but
