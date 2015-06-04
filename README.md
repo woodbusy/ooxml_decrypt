@@ -7,7 +7,7 @@ the encryption settings are a bit different.
 
 ## Contributing
 
-Pull requests welcome! Once you've forked and cloned the project, you can ```bundle install``` to take care of the
+Pull requests welcome! Once you've forked and cloned the project, you can `bundle install` to take care of the
 dependencies; after that, you're ready to code.
 
 You can also create issues for any bugs or feature requests, but they may take longer to get done, of course.
@@ -18,3 +18,9 @@ You can also create issues for any bugs or feature requests, but they may take l
 - Support for Office 2007 documents
 - Do verification (i.e. detect when password is incorrect)
 
+
+## References
+
+- Microsoft [MS-OFFCRYPTO](https://msdn.microsoft.com/en-us/library/office/cc313071)
+- http://www.lyquidity.com/devblog/?p=35
+- http://www.lyquidity.com/devblog/?p=85
