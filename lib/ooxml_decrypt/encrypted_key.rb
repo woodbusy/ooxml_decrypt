@@ -37,7 +37,7 @@ module OoxmlDecrypt
       end
 
       temp = hash(temp + ENCRYPTED_KEY_VALUE_BLOCK_KEY)
-      temp.pad_or_trim!( @block_size )
+      temp.pad_or_trim!( @key_bits/8 )
     end
     private :key_encryption_key
 

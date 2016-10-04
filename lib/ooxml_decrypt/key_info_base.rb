@@ -32,6 +32,8 @@ module OoxmlDecrypt
       case @hash_algorithm
       when "SHA1"
         Digest::SHA1.digest(value)
+      when "SHA512"
+        Digest::SHA512.digest(value)
       else
         raise "Unsupported hash algorithm: #{@hash_algorithm}"
       end
