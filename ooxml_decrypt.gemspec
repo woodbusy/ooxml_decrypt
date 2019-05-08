@@ -1,6 +1,10 @@
+lib = File.expand_path("../lib", __FILE__)
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
+require "ooxml_decrypt/version"
+
 Gem::Specification.new do |spec|
   spec.name = 'ooxml_decrypt'
-  spec.version = '0.1.0'
+  spec.version = OoxmlDecrypt::VERSION
   spec.authors = %w[woodbusy phish]
   spec.summary = 'Ruby library and script for decrypting password-protected ' \
                  'Microsoft Office XML files (.docx, .xlsx, etc.)'
