@@ -1,7 +1,7 @@
 require "spec_helper"
 
 module OoxmlDecrypt
-  describe EncryptedFile do
+  RSpec.describe EncryptedFile do
     it "should decrypt an encrypted XLSX" do
       password = "p\0a\0s\0s\0w\0o\0r\0d\0"
       filename = "spec/examples/password.xlsx"

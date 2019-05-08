@@ -1,7 +1,7 @@
 require "spec_helper"
 
 module OoxmlDecrypt
-  describe "When testing decryption" do
+  RSpec.describe "When testing decryption" do
     let(:encrypted_key) do
       EncryptedKey.new( :spin_count => 100_000,
                         :block_size => 16,
