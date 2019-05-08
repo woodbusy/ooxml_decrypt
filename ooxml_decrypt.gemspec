@@ -17,5 +17,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'nokogiri', '~> 1.10'
   spec.add_dependency 'ruby-ole', '~> 1.2'
 
+  spec.add_development_dependency 'bundler', '~> 2.0'
+  spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec', '>= 2.11.0', '< 4.0'
 end
